@@ -1,6 +1,7 @@
 FROM nginx:1.17.8-alpine
 
 EXPOSE 8000
+EXPOSE 8003
 CMD ["/sbin/entrypoint.sh"]
 
 ARG cachet_ver
