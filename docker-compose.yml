@@ -29,7 +29,7 @@ services:
       - DB_USERNAME=postgres
       - DB_PASSWORD=postgres
       - DB_PREFIX=chq_
-      - APP_KEY=base64:8czvnX34O61arc3qYcVSIDVYebnfhXEvYVALpBhZ39M=
+      - APP_KEY=${APP_KEY:-null}
       - APP_LOG=errorlog
       - APP_ENV=${APP_ENV:-production}
       - APP_DEBUG=false
